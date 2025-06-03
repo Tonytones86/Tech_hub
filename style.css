@@ -151,7 +151,7 @@ body{
     .product-descripion{
         color: #64748b;
         font-size: px;
-        margin-bottom: ;
+        margin-bottom: 15px;
     }
 
     .product-price{
@@ -189,8 +189,9 @@ body{
     background-color: #cbd5e1;
 }
 
-
-
-
-
-
+.footer{
+    background-color: #1e293b;
+    color:white;
+    text-align: center;
+    padding: 40px 0;
+}
