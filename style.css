@@ -70,7 +70,7 @@ body{
     }
 
     .hero{
-        background-color: aliceblue;
+        background-color: rgb(110, 182, 245);
         background: -o-linear-gradient(135deg, #3b82f6, #1d4ed8);
         text-align: center;
         padding: 150px 10px 100px;
@@ -91,7 +91,7 @@ body{
     .btn{
         display: inline-block;
         background-color: #1f94a3;
-        color: #1d4ed8;
+        color: #1a54f5;
         padding: 12px 30px;
         text-decoration: none;
         border-radius: 5px;
@@ -99,8 +99,98 @@ body{
         transition: all 0.3s ease;
     }
 
-    .btn :hover{
-        background-color: #1f73d4;
+    .btn:hover{
+        background-color: #66a6f0;
         transform: translateY(-4px)
     }
+
+    .featured{
+        padding: 80px 0;
+        background-color: #83acee;
+    }
+
+    .featured h2{
+        font-size: 40px;
+        margin-bottom: 50px;
+        text-align: center;
+        color: #333;
+    }
+
+    .products-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+    }
+
+    .product-card{
+        background: #3b82f6;
+        border: 10px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        overflow: hidden;
+        transition: transformv0.3s ease;
+    }
+
+    .product-card:hover{
+        transform: translateY(-5px);
+    }
+
+    .product-image{
+         width: 100%;
+         height: 200px;
+         object-fit: cover;
+         background-color: aqua;
+    }
+
+    .product-title{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #1e293b;
+    }
+
+    .product-descripion{
+        color: #64748b;
+        font-size: px;
+        margin-bottom: ;
+    }
+
+    .product-price{
+        font-size: 20px;
+        font-weight: bold;
+        color: #3b82f6;
+    }
+
+    .product-actions{
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn-small{
+        padding: 8px 16px;
+        font-size: 14px;
+        flex: 1;
+    }
+
+    .btn-primary{
+        background-color: #3b82f6;
+        color: white
+    }
+
+    .btn-primary:hover{
+        background-color:#2563eb;
+    }
+
+ .btn-secondary{
+    background-color: #e2e8f0;
+    color: #335155;
+}
+
+.btn-secondary:hover{
+    background-color: #cbd5e1;
+}
+
+
+
+
+
 
