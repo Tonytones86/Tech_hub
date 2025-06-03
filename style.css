@@ -59,7 +59,7 @@ body{
 
     .cart-link{
         background-color: rgb(26, 129, 95);
-        color: aliceblue;
+        color: rgba(240, 248, 255, 0.993);
         border-radius: 30px;
         padding: 8px 16px;
         font-size: 16px;
@@ -68,3 +68,39 @@ body{
     .cart-link:hover{
         background-color: blue ;
     }
+
+    .hero{
+        background-color: aliceblue;
+        background: -o-linear-gradient(135deg, #3b82f6, #1d4ed8);
+        text-align: center;
+        padding: 150px 10px 100px;
+        margin-top: 70px;
+    }
+
+    .hero h1{
+        font-size: 48px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    herop{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .btn{
+        display: inline-block;
+        background-color: #1f94a3;
+        color: #1d4ed8;
+        padding: 12px 30px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+
+    .btn :hover{
+        background-color: #1f73d4;
+        transform: translateY(-4px)
+    }
+
