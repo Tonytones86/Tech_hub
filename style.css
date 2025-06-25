@@ -68,7 +68,7 @@ body{
     }
 
     .cart-link:hover{
-        background-color: white !important;
+        background-color: rgb(8, 62, 94) !important;
     }
 
 
@@ -199,16 +199,9 @@ body{
     background-color: #cbd5e1;
 }
 
-/*Footer */
-.footer{
-    background-color: #1e293b;
-    color:white;
-    text-align: center;
-    padding: 30px 0;
-}
-
-.main-contebt{
-    margin-top: 60px 0;
+.main-content{
+    margin-top: 70px;
+    padding: 60px 0;
     min-height: calc(100vh - 140px);
 }
 
@@ -229,6 +222,19 @@ body{
 
 .filter-btn{
     padding: 10px 20px;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover, .filter-btn.active{
+    background-color: #105aec;
+    color: #cbd5e1;
+    
 }
 
 /* Footer */
