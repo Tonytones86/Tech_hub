@@ -3,7 +3,7 @@ const products = [
         id: 1,
         name: "iPhone 15 Pro",
         category: "phones",
-        image: "https://https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTw0zVojYMosQrigrWleCLFSD87LURo4uvfizgzrFSTOO1ZTKCwaBkEHyeeYNd0YtQTr1cVMhLwKCNIf26v-nhY80TN3kUuHQL6N6bJ8yRkVCnVzYfyhnBhgcjtnuFcdjuX3fVAUpU&usqp=CAcg",
+        image: "https://m.media-amazon.com/images/I/81NDDPNpt4L._AC_SX342_SY445_.jpg",
         description: "The latest iPhone with amazing camera and performance"
     },
     {
